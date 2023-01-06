@@ -1,3 +1,7 @@
+*{
+    margin: ;
+}
+
 .header-section{
     background-image: url(images/banner/banner3.png);
     width: 100%;
@@ -40,6 +44,45 @@
 }
 /* end-header-section  */
 
+.first-section{
+    display: flex;
+    
+    
+}
+
+.picture-part{
+    margin: 100px 50px 50px 200px;
+    
+}
+
+.person{
+    
+}
+
+.written-part{
+    width: 330px;
+    height: 500px;
+    margin: 300px 0px 0px 0px;
+}
+
+.heading-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph{
+    color: rgb(58, 55, 55);
+    padding-bottom: 15px;
+}
+
+.list{
+    color: rgb(58, 55, 55);
+    
+}
+
+
 .fa-solid{
-    color: lawngreen;
+    color: rgb(41, 210, 131);
+    padding-right: 7px;
 }
