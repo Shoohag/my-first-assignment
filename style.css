@@ -115,28 +115,24 @@
 /* end third section  */
 
 .third-section{
-    background-image: url(images/watch.png);
+    background-image: linear-gradient(to right, rgba(25, 57, 237, 0.6), rgba(39, 159, 159, 0.082)), url(images/watch.png);
+
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100hv;
     height: 300px;
-    margin: 100px 0;
-    position: relative;
-    border-radius: 0px;
+    margin: 100px 200px;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .gradient-div{
-    position: absolute;
-    width: 500px;
-    height: 150px;
-    margin-left: 220px;
-    margin-top: 100px;
+    padding-left: 80px;
 }
 
 .gradient-title{
+    padding-top: 110px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 35px;
+    font-weight: 900;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -147,7 +143,7 @@
     padding: 15px 25px;
     color: rgb(60, 60, 200);
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 /* end gradient section  */
